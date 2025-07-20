@@ -1,0 +1,1 @@
+package com.example.moneytracker.data.model;import androidx.room.Embedded;import com.example.moneytracker.data.db.Account;public class AccountWithBalance {    @Embedded    public Account account;    public double balance;}

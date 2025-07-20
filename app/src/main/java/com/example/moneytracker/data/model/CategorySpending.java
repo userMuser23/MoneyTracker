@@ -1,0 +1,1 @@
+package com.example.moneytracker.data.model;public class CategorySpending {    public String categoryName;    public double totalAmount;}

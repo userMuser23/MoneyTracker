@@ -1,0 +1,1 @@
+package com.example.moneytracker.utils;public class Constants {    public static final String TRANSACTION_TYPE_INCOME = "income";    public static final String TRANSACTION_TYPE_EXPENSE = "expense";}
