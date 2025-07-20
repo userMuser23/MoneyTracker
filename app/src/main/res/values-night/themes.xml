@@ -1,9 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.MoneyTracker" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/purple_primary</item>
-        <item name="colorPrimaryDark">@color/purple_dark</item>
-        <item name="colorAccent">@color/purple_accent</item>
+
+    <style name="Base.Theme.MoneyTracker" parent="Theme.Material3.Dark.NoActionBar">
+
+        <item name="colorPrimary">@color/honey_primary</item>
+        <item name="colorOnPrimary">@color/honey_on_primary</item>
+        <item name="colorPrimaryContainer">@color/honey_container</item>
+        <item name="colorOnPrimaryContainer">@color/honey_on_container</item>
+
+        <item name="colorSecondary">@color/honey_secondary</item>
+        <item name="colorOnSecondary">@color/honey_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/honey_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/honey_on_secondary_container</item>
+
+        <item name="colorOnSurfaceVariant">@color/gray_dark</item>
+
         <item name="android:windowBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_dark</item>
     </style>
+
     <style name="Theme.MoneyTracker" parent="Base.Theme.MoneyTracker" />
 </resources>
